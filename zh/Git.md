@@ -11,3 +11,13 @@
 
 合并远程分支到本地分支  
 > git merge origin/main  
+
+## 分支远程推送到本地分支
+一个创建新的本地分支
+> git branch <branch_name>  
+
+切换到新的分支
+> git switch <branch_name>
+
+推送分支（-u：使HEAD指向新分支）
+> git push -u origin <branch_name> 

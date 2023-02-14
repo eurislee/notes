@@ -1,3 +1,6 @@
+## Branch删除本地分支
+> git branch -d <local_branch_name>
+
 ## Reset回滚
 使用--hard回滚远程分支（注意：使用--hard参数会丢失当前工作区的所有修改）  
 > git reset --hard <HEAD>

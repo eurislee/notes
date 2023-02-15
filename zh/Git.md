@@ -1,3 +1,7 @@
+## Amend修改最后一次已提交的Commit
+> git commit --amend  
+> git push -u origin <branch_name>
+
 ## Branch删除本地分支
 > git branch -d <local_branch_name>
 
